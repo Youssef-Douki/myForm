@@ -1,0 +1,13 @@
+div{
+    position: absolute;
+    width: 60%;
+    top: 25%;
+    left: 22%;
+    height: 50%;
+}
+p{
+    position: absolute;
+    top: -20%;
+    font-family: inherit;
+    font-size: 20px;
+}

@@ -1,0 +1,418 @@
+/* body{
+    background-color:  rgb(44, 156, 97) ;
+} */
+.signInInputDiv{ 
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    width: 50%;
+    height: 45%;
+    border-radius: 5px;
+    display: none;
+}
+
+.firstNameInput{
+    position: absolute;
+    left:35%;
+    top:15%;
+    height: 4.4%;
+    
+}
+.signUp{
+    position: absolute;
+    color: #bfdceb;
+    background-color: #b69d3a;
+    border-radius: 8px;
+    width: 13%;
+    height: 4%;
+}
+.logIn{
+    position: absolute;
+    color: #bfdceb;
+    background-color: #b69d3a;
+    border-radius: 8px;
+    top: 5%;
+    width: 13%;
+    height: 4%;
+}
+.lastNameInput{
+    position: absolute;
+    left:35%;
+    top:25%;
+    height: 4.4%;
+    
+}
+
+.ageInput{
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    height: 4.4%;
+}
+
+.signInPasswordInput{
+    position: absolute;
+    left: 35%;
+    top: 55%;
+    height: 4.4%;
+}
+
+.signInPasswordRepeatInput{
+    position: absolute;
+    left: 35%;
+    top: 65%;
+    height: 4.4%;
+}
+
+.signInEmailInput{
+    position: absolute;
+    left: 35%;
+    top: 45%;
+    height: 4.4%;
+}
+.L1{
+    position: absolute;
+    left: 35%;
+    font-size: 22px;
+    color: #dfd591;
+    top: 9%;
+
+}
+.L2{
+    position: absolute;
+    left:35%;
+    top: 19.5%;
+    font-size: 22px;
+    color: #dfd591;
+
+}
+.L3{
+    position: absolute;
+    left:35%;
+    top:29.5%;
+    color: #dfd591;
+    font-size: 22px;
+}
+.L4{
+    position: absolute;
+    left:35%;
+    top:39.5%;
+    color: #dfd591;
+    font-size: 22px;
+}
+.L5{
+    position: absolute;
+    left:35%;
+    top:49.5%;
+    color: #dfd591;
+    font-size: 22px;
+
+}
+.L6{
+    position: absolute;
+    left:35%;
+    top:59.5%;
+    color: #dfd591;
+    font-size: 22px;
+}
+
+.Ll2{
+    right: 16.5%;
+    position: absolute;
+    font-size: 21px;
+    color: #ffffff;
+
+}
+.logInEmailInput{
+    position: absolute;
+    height: 2%;
+    top: 1.2%;
+    width: 13.5%;
+    right: 22%;
+    
+}
+.Ll1{
+    right: 36.5%;
+    position: absolute;
+    font-size: 21px;
+    color: #f8f8f8;
+}
+.logInPasswordInput{
+
+    position: absolute;
+    height: 2%;
+    top: 1.2%;
+    width: 13.5%;
+    right: 2%;
+}
+.logIn2{
+    position: absolute;
+    right : 2%;
+    color: #bfdceb;
+    background-color: #b69d3a;
+    border-radius: 8px;
+    width: 9%;
+    top: 4.3%;
+    height: 4%;
+}
+.title{
+    font-style:italic ;
+    color: cyan;
+    position: absolute;
+    left: 35%;
+    font-size: 30px;
+}
+
+.calc{
+    font-style: italic;
+    width: 20%;
+    height: 60%;
+    left: 3%;
+    position: absolute;
+    font-size: 25px;
+    display: inline-grid;
+    top: 15%;
+    display: none;
+}
+.ibmBtn{
+    position: absolute;
+    left: 6%;
+    width: 11%;
+    top: 16.3%;
+    background-color: coral;
+    height: 3%;
+    display: none;
+}
+.titleIbm{
+    width: 17%;
+    position: absolute;
+    color: #6eff00;
+    left: 3.2%;
+    font-size: 19px;
+    text-align: center;
+    display: none;
+}
+.welcome{
+    text-align: start;
+    font-family: cursive;
+    color: #6eff00;
+    
+}
+.ibmBtn2{
+    position: absolute;
+    width: 100%;
+    height: 6%;
+    background-color: coral;
+    bottom: 13%;
+    display: none;
+}
+.sexeLabel{
+    position: absolute;
+    top: -34px;
+    color: #04ff00;
+}
+.weightLabel{
+    position: absolute;
+    top: 65px;
+    color: #04ff00;
+}
+.heightLabel{
+    position: absolute;
+    top: 26%;
+    color: #04ff00;
+}
+.noIbmLabel{
+    position: absolute;
+    top: 39%;
+    color: #04ff00;
+}
+.walkLabel{
+    position: absolute;
+    top: 52%;
+    color: #04ff00;
+}
+.walkDurationLabel{
+    position: absolute;
+    top: 67%;
+    color: #04ff00;
+}
+.gender{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 7%;
+    color: #04ff00;
+}
+.userWeight{
+    position: absolute;
+    top: 17%;
+    width: 97.3%;
+    height: 7%;
+}
+.userHeight{
+    position: absolute;
+    top: 31.5%;
+    width: 97.5%;
+    height: 7%;
+}
+.noIbm{
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    height: 7%;
+}
+.walk{
+    position: absolute;
+    top: 58%;
+    width: 100%;
+    height: 7%;
+}
+.walkDuration{
+    position: absolute;
+    top: 72%;
+    width: 100%;
+    height: 7%;
+}
+.ibmValue{
+    position: absolute;
+    left: 31%;
+    width: 22%;
+    color: aliceblue;
+    top: 25%;
+    font-family: cursive;
+    font-size: 20px;
+}
+.footer{
+    position: absolute;
+    width: 99%;
+    height: 7%;
+    top: 93%;
+    background-color: #ac816c;
+}
+.about{
+    bottom: 40px;
+    position: absolute;
+    color: #f7bb9e;
+    left: 9%;
+    font-size: 25px;
+}
+.copyR{
+    bottom: 3px;
+    position: absolute;
+    
+    left: 35%;
+    font-size: 15px;
+}
+.contact{
+    bottom: 40px;
+    position: absolute;
+    color: #f7bb9e;
+    left: 30%;
+    font-size: 25px;
+}
+.titleName{
+    font-family: 'Sanchez', serif;
+    position: absolute;
+    left: 46%;
+    top: -2%;
+    color: #8aef8d;
+    font-size: 39px;
+}
+.ibmValuesSel{
+    position: absolute;
+    height: 4%;
+    left: 56.5%;
+    top: 15.5%;
+    width: 16%;
+    
+}
+.img1{
+    position: absolute;
+    width: 19%;
+    height: 23%;
+    left: 55.5%;
+    top: 21%;
+}
+.t1{
+    width: 20%;
+    position: absolute;
+    left: 54.2%;
+    color: antiquewhite;
+    font-size: 19px;
+    text-align: center;
+}
+.a1{
+    position: absolute;
+    left: 66.5%;
+    color: aliceblue;
+    font-size: 27px;
+    top: 43.8%;
+}
+.p1{
+    position: absolute;
+    left: 56.5%;
+    font-size: 23px;
+    color: aliceblue;
+    top: 41.7%;
+}
+.img2{
+    position: absolute;
+    width: 19%;
+    height: 23%;
+    left: 55.5%;
+    top: 21%;
+}
+.a2{
+    position: absolute;
+    left: 66.5%;
+    color: aliceblue;
+    font-size: 27px;
+    top: 43.8%;
+}
+.img3{
+    position: absolute;
+    width: 19%;
+    height: 23%;
+    left: 55.5%;
+    top: 21%;
+}
+.a3{
+    position: absolute;
+    left: 66.5%;
+    color: aliceblue;
+    font-size: 27px;
+    top: 43.8%;
+}
+.img4{
+    position: absolute;
+    width: 19%;
+    height: 23%;
+    left: 55.5%;
+    top: 21%;
+}
+.a4{
+    position: absolute;
+    left: 66.5%;
+    color: aliceblue;
+    font-size: 27px;
+    top: 43.8%;
+}
+body{
+    background: url(./images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.signIn2{
+    position: absolute;
+    right: 46.8%;
+    top: 70.2%;
+    color: #ffffff;
+    background-color: #b69d3a;
+    height: 10%;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 18%;
+
+}
